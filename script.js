@@ -24,8 +24,11 @@ showWhy();
 
 setInterval(showWhy,2500);
 
-toggle.addEventListener("click",()=>{
+toggle.addEventListener("click", () => {
+
+    toggle.classList.toggle("active");
     nav.classList.toggle("active");
+
 });
 
 // Smooth scroll untuk navbar
