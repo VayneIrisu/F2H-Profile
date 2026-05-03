@@ -467,6 +467,36 @@
 }
 
 
+/* ===== LIGHT THEME OVERRIDES ===== */
+
+[data-theme="light"] .produk-placeholder.variant-1{
+    background:linear-gradient(135deg, #fef2f2 0%, #fce7e7 40%, #f0f4ff 100%);
+}
+
+[data-theme="light"] .produk-placeholder.variant-2{
+    background:linear-gradient(135deg, #f0f4ff 0%, #ede9fe 40%, #fef2f2 100%);
+}
+
+[data-theme="light"] .produk-placeholder.variant-3{
+    background:linear-gradient(135deg, #f0f8ff 0%, #eef2ff 40%, #fef2f2 100%);
+}
+
+[data-theme="light"] .produk-placeholder.variant-4{
+    background:linear-gradient(135deg, #fdf2f8 0%, #f0f4ff 40%, #f0f8ff 100%);
+}
+
+[data-theme="light"] .produk-hero::before{
+    background:radial-gradient(circle, rgba(230,57,70,0.06) 0%, transparent 65%);
+}
+
+[data-theme="light"] .produk-card{
+    color:var(--text);
+}
+
+[data-theme="light"] .cta-content::before{
+    background:radial-gradient(circle, rgba(230,57,70,0.04) 0%, transparent 70%);
+}
+
 /* ===== RESPONSIVE ===== */
 
 @media (max-width:768px){
